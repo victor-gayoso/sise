@@ -7,9 +7,13 @@ SiSe implements a dual input command format: One adapted to the FRASH tests, and
 In comparison, the proprietary input command format used by SiSe for creating a new signature is "sise -i file", which allows the following additional optional elements:
 
 -i (mandatory): Input file name.
+
 -o (optional): Output file name.
+
 -b (optional): Block size (if not indicated, the block size is computed by the application as in ssdeep).
+
 -d: Decremental value (i.e., the amount to be decremented to the block size in the trigger point computations. The default value is 1).
+
 -t: Number of threads used by the applicacion when computing the signatures (if not indicated, the value employed is decided by the application based on the size of the input file).
 
 The command for comparing two files is "sise -c file1 file2". Those files can be both of them content files, hash files or a mixture of them (one content file and one hash file).
