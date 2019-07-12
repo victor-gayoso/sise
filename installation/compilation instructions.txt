@@ -1,1 +1,1 @@
-
+g++-8 -Ofast -std=c++17 sise.cpp -fopenmp -lstdc++fs -o sise
