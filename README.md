@@ -19,3 +19,5 @@ In comparison, the proprietary input command format used by SiSe for creating a 
 The command for comparing two files is "sise -c file1 file2". Those files can be both of them content files, hash files or a mixture of them (one content file and one hash file, the order is not important).
 
 SiSe can be compiled on Linux and Windows platforms, though it has only been extensively tested on Linux (Ubuntu). As SiSe is implemented as a single C++ file and uses standard libraries, it can be compiled with the command "g++-8 -Ofast -std=c++17 sise.cpp -fopenmp -lstdc++fs -o sise".
+
+SiSe has been developed at CSIC-ITEFI (Spanish National Research Council).
